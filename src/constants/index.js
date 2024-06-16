@@ -12,12 +12,21 @@ import {
   nodejs,
   mongodb,
   git,
+  docker,
+  redis,
+  nextjs,
   chatapp,
   touristheaven,
   playfilx,
   todo,
   weather,
- 
+  postgres,
+  expressJs,
+  java,
+  k8s,
+  inscribe,
+  omegle,
+
 
 } from "../assets";
 
@@ -82,6 +91,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name : "ExpressJS",
+    icon : expressJs,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -89,6 +102,30 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgres,
+  },
+  {
+    name: "NextJs",
+    icon: nextjs,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: k8s,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 
 ];
@@ -99,6 +136,36 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Inscribe",
+    description:
+      "Inscribe is a dynamic and feature-rich blog site that provides a platform for users to publish and explore engaging content. With a sleek and intuitive interface, it offers a seamless reading and writing experience for bloggers and readers alike.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloudflare",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HonoJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: inscribe,
+    source_code_link: "https://github.com/Maniteja0126/Inscribe-Where-Words-Find-Wings",
+    Project_link: "https://inscribe-where-words-find-wings.vercel.app",
+  },
   {
     name: "EasyConnect",
     description:
@@ -158,6 +225,32 @@ const projects = [
     image: touristheaven,
     source_code_link: "https://github.com/Maniteja0126/breeze_travel_frontend",
     Project_link: "https://touristheaven.vercel.app/",
+  },
+  {
+    name: "Omegle 2.0",
+    description:
+      "I developed an Omegle clone using WebRTC and Socket.io for real-time video and text chat, with a Node.js backend and a React.js frontend, featuring random user matching and connection status notifications.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: omegle,
+    source_code_link: "https://github.com/Maniteja0126/Omegle-clone",
+    Project_link: "https://omegle-clone-fawn.vercel.app/",
   },
   {
     name: "PlayFlix",

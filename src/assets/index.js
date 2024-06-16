@@ -21,7 +21,12 @@ import threejs from "./tech/threejs.svg";
 import android from "./android.png";
 import uiux from "./uiux.png";
 import opensource from "./opensource.png";
-
+import redis from './tech/redis.png';
+import postgres from './tech/postgres.png';
+import nextjs from './tech/nextjs.png';
+import expressJs from './tech/expressJs.png';
+import java from './tech/java.jpeg';
+import k8s from './tech/k8s.jpeg'
 
 
 
@@ -30,6 +35,9 @@ import touristheaven from "./touristHeaven.png";
 import playfilx from "./playfilx.png";
 import todo from './todo.png';
 import weather from './weather.png';
+import inscribe from './inscribe.png';
+import omegle from './omegle.png'
+
 export {
   logo,
   backend,
@@ -55,8 +63,16 @@ export {
   playfilx,
   todo,
   weather,
+  inscribe,
+  omegle,
   android,
   uiux,
   opensource,
+  redis,
+  postgres,
+  nextjs,
+  expressJs,
+  java,
+  k8s
 
 };

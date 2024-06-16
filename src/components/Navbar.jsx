@@ -56,7 +56,6 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
-
             </li>
           ))}
         </ul>
